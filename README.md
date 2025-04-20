@@ -53,7 +53,7 @@ Key Notebooks:
 cd Models/adversarial-training/Best model/CIFAKE/
 ```
 
-### 1. CNN + transformers
+### 2. CNN + transformers
 **Location:** `Models/adversarial-training/Best model/CIFAKE/`
 
 Key Notebooks:
