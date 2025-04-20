@@ -60,7 +60,7 @@ cd Models/adversarial-training/Best model/CIFAKE/
 4.Run all the cells sequntially
 
 ### 2. CNN + transformers
-**Location:** `Models/adversarial-training/Best model/CIFAKE/`
+**Location:** `Models/CNN+Vision Transformers/`
 
 Key Notebooks:
 - `adversarial-training_CIFAKE_best.ipynb` - Best performing adversarial model
@@ -70,12 +70,12 @@ Key Notebooks:
 #### How to Run:
 1. Navigate to the directory:
 ```bash
-cd Models/adversarial-training/CNN+Vision Transformers/
+cd Models/CNN+Vision Transformers/
 ```
 2.Open the required model and download the libraries metioned in the imports section
 
 3.Download the dataset and set the paths appropriately in the notebook
-    [https://www.kaggle.com/datasets/anmolkumar/cifake-real-and-ai-generated-synthetic-images](https://www.kaggle.com/datasets/anmolkumar/cifake-real-and-ai-generated-synthetic-images) for CIFAKE and [https://www.kaggle.com/datasets/yuezunli/dfri](https://www.kaggle.com/datasets/yuezunli/dfri) for DFRI
+    [https://www.kaggle.com/datasets/birdy654/cifake-real-and-ai-generated-synthetic-images](https://www.kaggle.com/datasets/birdy654/cifake-real-and-ai-generated-synthetic-images) for CIFAKE and [https://www.kaggle.com/datasets/manjilkarki/deepfake-and-real-images/data](https://www.kaggle.com/datasets/manjilkarki/deepfake-and-real-images/data) for DFRI
    
 4.Run all the cells sequntially
 
