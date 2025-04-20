@@ -54,8 +54,8 @@ cd Models/adversarial-training/Best model/CIFAKE/
 ```
 2.Open the required model and download the libraries metioned in the imports section
 
-3.Download the dataset and set the paths appropriately in the notebook
-    [https://www.kaggle.com/datasets/anmolkumar/cifake-real-and-ai-generated-synthetic-images](https://www.kaggle.com/datasets/anmolkumar/cifake-real-and-ai-generated-synthetic-images) for CIFAKE and [https://www.kaggle.com/datasets/yuezunli/dfri](https://www.kaggle.com/datasets/yuezunli/dfri) for DFRI
+3.3.Download the dataset and set the paths appropriately in the notebook
+    [https://www.kaggle.com/datasets/birdy654/cifake-real-and-ai-generated-synthetic-images](https://www.kaggle.com/datasets/birdy654/cifake-real-and-ai-generated-synthetic-images) for CIFAKE and [https://www.kaggle.com/datasets/manjilkarki/deepfake-and-real-images/data](https://www.kaggle.com/datasets/manjilkarki/deepfake-and-real-images/data) for DFRI
     
 4.Run all the cells sequntially
 
