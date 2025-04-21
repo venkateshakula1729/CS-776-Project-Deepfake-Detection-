@@ -32,7 +32,7 @@ Deep fake detection/
 │ │ │ ├── CNN+Transformers_DFRI_baseline.ipynb
 │ │ │ ├── DeiT_cifake_baseline.ipynb
 │ │ │ ├── DeiT_DFRI_Adv.ipynb
-│ │ │ └── DeiT_on_CIFAKE.ipynb
+│ │ │ └── DeiT_cifake_adv.ipynb
 ├── plots/
 │ └── deepfake plots.ipynb
 ├── .gitignore
@@ -63,9 +63,9 @@ cd Models/adversarial-training/Best model/CIFAKE/
 **Location:** `Models/CNN+Vision Transformers/`
 
 Key Notebooks:
-- `adversarial-training_CIFAKE_best.ipynb` - Best performing adversarial model
-- `efficientnet-cifake-adv.ipynb` - EfficientNet with adversarial training
-- `Resnet_cifake_adv.ipynb` - ResNet with adversarial defenses
+- `CNN+Tranformers_cifake_adv.ipynb` - hybrid adversarial model 
+- `DeiT_cifake_adv.ipynb` - Best performing adversarial model
+- `DeiT_cifake_baseline.ipynb` - Best performing non defense model
 
 #### How to Run:
 1. Navigate to the directory:
