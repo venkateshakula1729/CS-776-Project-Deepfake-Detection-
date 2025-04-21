@@ -11,32 +11,62 @@ We have mainly worked with 2 datasets -  CIFAKE & Deepfake and real images
 ## Project Structure
 ```bash
 
-Deep fake detection/
-├── Attacks/
-│ ├── FGSM.py
-│ ├── one_pixel_attack.py
-│ └── PGD.py
-├── Models/
-│ ├── adversarial-training/
-│ │ ├── Best model/
-│ │ │ └── CIFAKE/
-│ │ │ ├── adversarial-training_CIFAKE_best.ipynb
-│ │ │ ├── efficientnet_cifake_baseline.ipynb
-│ │ │ ├── efficientnet-cifake-adv.ipynb
-│ │ │ ├── mobilenet_cifake_adv.ipynb
-│ │ │ └── Resnet_cifake_adv.ipynb
-│ ├── CNN+Vision Transformers/
-│ │ ├── final_models/
-│ │ │ ├── CNN+Tranformers_cifake_adv.ipynb
-│ │ │ ├── CNN+transformers_cifake_baseline.ipynb
-│ │ │ ├── CNN+Transformers_DFRI_baseline.ipynb
-│ │ │ ├── DeiT_cifake_baseline.ipynb
-│ │ │ ├── DeiT_DFRI_Adv.ipynb
-│ │ │ └── DeiT_cifake_adv.ipynb
-├── plots/
-│ └── deepfake plots.ipynb
-├── .gitignore
-└── README.md
+assets/
+    ├── Baseline model.png
+    ├── Baseline models without defense.png
+    ├── Model comparison .png
+    └── Readme
+Attacks/
+    ├── FGSM.py
+    ├── one_pixel_attack.py
+    └── PGD.py
+Models/
+    ├── adversarial-training/
+        ├── Best model/
+            └── CIFAKE/
+                ├── adversarial-training_CIFAKE_best.ipynb
+                ├── efficientnet_cifake_baseline.ipynb
+                ├── efficientnet-cifake-adv.ipynb
+                ├── mobilenet_cifake_adv .ipynb
+                └── Resnet_cifake_adv.ipynb
+        ├── cifake_adv-training.ipynb
+        ├── cifake_adversarial-FGSM_training_V2.ipynb
+        ├── cifake_adversarial-training_FGSM.ipynb
+        ├── cifake-on-resnet.ipynb
+        ├── efficientnet_cifake_baseline.ipynb
+        ├── efficientnet-cifake-adv.ipynb
+        ├── mobilenet_cifake_adv .ipynb
+        ├── Resnet_cifake_adv.ipynb
+        ├── vgg19_baseline_cifake.ipynb
+        └── vgg19_DFRI_baseline (1).ipynb
+    ├── CNN+Vision Transformers/
+        ├── final_models/
+            ├── CNN+Tranformers_ cifake_adv.ipynb
+            ├── CNN+transformers_cifake_baseline.ipynb
+            ├── CNN+Transformers_DFRI_baseline.ipynb
+            ├── DeiT_cifake_baseline.ipynb
+            ├── DeiT_DFRI_Adv.ipynb
+            ├── DeiT_on_CIFAKE.ipynb
+            └── README.md
+        ├── cifake best hybrid.ipynb
+        ├── cifake-adv-hybrid-v1.ipynb
+        ├── CNN+Transformers_cifake_adv.ipynb
+        ├── CNN+transformers_cifake_baseline.ipynb
+        ├── DeiT_on_CIFAKE.ipynb
+        ├── DeiT-cifake-baseline.ipynb
+        ├── hybrid_cifake_adv_v2.ipynb
+        └── Readme.md
+    └── readme.md
+plots/
+    ├── deepfake plots .ipynb
+    └── Readme.md
+.gitignore
+DeepFake-1.pptx
+Endterm Presentation.pptx
+inference .ipynb
+LICENSE.txt
+Project Report.pdf
+README.md
 ```
 
 ### 1. Adversarial Training Models
